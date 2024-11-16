@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+
+    <script>
+        class Vehicle{
+            constructor(name,color){
+            this.name=name;
+            this.color=color;
+            }
+
+            print(id){
+                document.getElementById(id).innerHTML="This is a "+this.name+" of colour "+this.color
+            }
+        }
+        class car{
+            constructor(registration){
+        }
+        car1=new Vehicle("Car","Blue")
+        Bus1=new Vehicle("Bus1","Red")
+
+        
+        car1.print("para")
+    </script>
+</body>
+</html>

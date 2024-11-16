@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="button" onclick="multiply(10,2,'multiply')">
+        Multiply 2 and 10
+    </button>
+    <p id="multiply"></p>
+    
+    <button class="button" onclick="multiply(10,3,'multiplyy')">
+        Multiply 3 and 10
+    </button>
+    <p id="multiplyy"></p>
+    
+    <script>
+        function multiply(num1,num2,id){
+            var result=num1*num2;
+            document.getElementById(id).innerHTML=result;
+        }
+        
+    </script>
+</body>
+</html>

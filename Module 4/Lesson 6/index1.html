@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+</head>
+
+<body style="background-color:DodgerBlue;">
+    <h1 id="h1">Calculator</h1>
+
+    <div class="container">
+        
+        <input type="number" id="input1" placeholder="Enter 1st Number" class="bg-info border-success text-danger">
+        <input type="number" id="input2" placeholder="Enter 2nd Number" class="bg-info border-success text-danger">
+        <br>
+        <button type="button" id="Add" onclick="add()"class="bg-danger border-light">Add</button>
+        
+        <button type="button" id="Subtract" onclick="subtract()"class="bg-success border-light">Subtract</button>
+        
+        <button type="button" id="Multiply" onclick="multiply()"class="bg-warning border-light">Multiply</button>
+        
+        <button type="button" id="Divide" onclick="divide()"class="bg-primary border-light">Divide</button>
+        <br>
+        <br>
+        <script>
+            function add() {
+                var num1 = document.getElementById("input1").value;
+                var num2 = document.getElementById("input2").value;
+                sum = parseInt(num1) + parseInt(num2);
+                alert(sum)
+            }
+            function subtract() {
+                var num1 = document.getElementById("input1").value;
+                var num2 = document.getElementById("input2").value;
+                difference = parseInt(num1) - parseInt(num2);
+                alert(difference)
+            }
+            function multiply() {
+                var num1 = document.getElementById("input1").value;
+                var num2 = document.getElementById("input2").value;
+                product = parseInt(num1) * parseInt(num2);
+                alert(product)
+            }
+            function divide() {
+                var num1 = document.getElementById("input1").value;
+                var num2 = document.getElementById("input2").value;
+                quotient = parseInt(num1) / parseInt(num2);
+                alert(quotient)
+            }
+
+        </script>
+    </div>
+</body>
+
+</html>

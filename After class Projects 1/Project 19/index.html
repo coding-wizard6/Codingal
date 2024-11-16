@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+
+    <script>
+        document.getElementById("para").innerHTML=Math.floor(Math.random()*10)
+        document.getElementById("para1").innerHTML = Math.ceil(Math.random() * 10)
+        document.getElementById("para2").innerHTML = Math.round(Math.random() * 10)
+        document.getElementById("para3").innerHTML = Math.random() * 10
+    </script>
+</body>
+</html>

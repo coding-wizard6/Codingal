@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="add()" class="button">
+        2 + 2
+    </button>
+    <p id="Add2+2"></p>
+
+    
+    <button onclick="subtract()" class="button">
+        2 - 2
+    </button>
+    <p id="Subtract2-2"></p>
+
+    <button onclick="multiply()" class="button">
+        2 * 2
+    </button>
+    <p id="Multiply2*2"></p>
+
+    <button onclick="divide()" class="button">
+        2 / 2
+    </button>
+    <p id="Divide2/2"></p>
+    
+    <script>
+        function add() {
+            var num1 = 2;
+            var num2 = 2;
+            var sum = num1 + num2;
+            document.getElementById("Add2+2").innerHTML = sum;
+        }
+        function subtract() {
+            var num1 = 2;
+            var num2 = 2;
+            var difference = num1 - num2;
+            document.getElementById("Subtract2-2").innerHTML = difference;
+        }
+        function multiply() {
+            var num1 = 2;
+            var num2 = 2;
+            var multiply = num1 * num2;
+            document.getElementById("Multiply2*2").innerHTML = multiply;
+        }
+        function divide() {
+            var num1 = 2;
+            var num2 = 2;
+            var quotient = num1 / num2;
+            document.getElementById("Divide2/2").innerHTML = quotient;
+        }
+    </script>
+</body>
+
+</html>

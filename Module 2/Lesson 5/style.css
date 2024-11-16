@@ -1,0 +1,25 @@
+input[type="password"]{
+    border: 2px solid red;
+}
+input[type="text"]{
+    border:2px solid blue;
+}
+.example2{
+    width:200px;
+    height:200px;
+    background-color: green;
+    border: 10px solid black;
+    padding-bottom: 100px;
+    margin:20px 40px;
+}
+#img1{
+    float:left;
+}
+#img2 {
+    float: right;
+
+}
+#Para{
+    padding-left:150px;
+    margin:1px 1000px;
+}

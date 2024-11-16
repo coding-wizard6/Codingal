@@ -1,0 +1,24 @@
+#Hi{
+    text-decoration:underline;
+    text-transform:capitalize;
+}
+#Hello{
+    text-decoration:overline;
+    text-transform:uppercase;
+}
+#How{
+    text-decoration:line-through;
+    text-transform:lowercase;
+    text-shadow:2px 3px 4px black;
+    
+}
+#are{
+    text-decoration: overline underline line-through;
+    box-shadow: 4px 6px 15px;
+    
+}
+#You{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 40%;
+    
+}

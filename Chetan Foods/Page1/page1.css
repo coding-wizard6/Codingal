@@ -1,0 +1,210 @@
+#LOGO {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+}
+#TopNavbar{
+    background-color: rgb(148, 224, 89);
+}
+#IMG1 {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+#Leaf1 {
+    position: absolute;
+    top: 450px;
+    left: 620px;
+}
+
+#MasalaPouches {
+    position: absolute;
+    top: 540px;
+    left: 0px;
+    background-color: rgb(199, 197, 197);
+    width: 1600px;
+}
+
+#Garam {
+    position: absolute;
+    top: 600px;
+    left: 90px;
+}
+
+#KitchenKing {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}
+
+#Sambar {
+    position: absolute;
+    top: 600px;
+    left: 410px;
+}
+
+#Rasam {
+    position: absolute;
+    top: 600px;
+    left: 570px;
+}
+
+#Puliogare {
+    position: absolute;
+    top: 600px;
+    left: 730px;
+}
+
+#VangiBath {
+    position: absolute;
+    top: 600px;
+    left: 890px;
+}
+
+#Bisibele {
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+}
+
+#Egg {
+    position: absolute;
+    top: 600px;
+    left: 1210px;
+}
+
+#Chicken {
+    position: absolute;
+    top: 950px;
+    left: 570px;
+}
+
+#Mutton {
+    position: absolute;
+    top: 950px;
+    left: 730px;
+}
+
+#MasalaBox {
+    position: absolute;
+    top: 1320px;
+    background-color: rgb(199, 197, 197);
+    width: 1600px;
+}
+
+#Chaat {
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
+
+#Chole {
+    position: absolute;
+    top: 1400px;
+    left: 260px;
+}
+
+#Shahi {
+    position: absolute;
+    top: 1400px;
+    left: 420px;
+}
+
+#Pav {
+    position: absolute;
+    top: 1400px;
+    left: 580px;
+}
+
+#Sabji {
+    position: absolute;
+    top: 1400px;
+    left: 740px;
+}
+
+#Tomato {
+    position: absolute;
+    top: 1400px;
+    left: 900px;
+}
+
+#Fish {
+    position: absolute;
+    top: 1400px;
+    left: 1060px;
+}
+
+#RTC {
+    position: absolute;
+    top: 1800px;
+    background-color: rgb(199, 197, 197);
+    width: 1600px;
+}
+
+#RavaIdli {
+    position: absolute;
+    top: 1900px;
+    left: 200px;
+}
+
+#RavaDosa {
+    position: absolute;
+    top: 1900px;
+    left: 360px;
+}
+
+#RagiDosa {
+    position: absolute;
+    top: 1900px;
+    left: 520px;
+}
+
+#GulabJamun {
+    position: absolute;
+    top: 1900px;
+    left: 680px;
+}
+
+#VPayasam {
+    position: absolute;
+    top: 1900px;
+    left: 840px;
+}
+
+#Spices {
+    position: absolute;
+    top: 2200px;
+    background-color: rgb(199, 197, 197);
+    width: 1600px;
+}
+
+#WinnerCP {
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+}
+
+#StemlessCP {
+    position: absolute;
+    top: 2300px;
+    left: 260px;
+}
+
+#Turmeric {
+    position: absolute;
+    top: 2300px;
+    left: 420px;
+}
+
+#Coriander {
+    position: absolute;
+    top: 2300px;
+    left: 580px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    /* Set the height of the carousel images */
+    object-fit: cover;
+}

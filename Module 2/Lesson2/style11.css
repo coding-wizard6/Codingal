@@ -1,0 +1,58 @@
+h1{
+    color:red;
+}
+
+body{
+    background-image: url("glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.avif");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+#div1{
+    width:900px;
+    height:300px;
+    background:linear-gradient(to right,orange,white,green)
+}
+#div2 {
+    width: 900px;
+    height: 300px;
+    background: radial-gradient(blue, red)
+}
+#div3 {
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(to bottom, orange, red)
+}
+#div4 {
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(to top right,white, red)
+}
+#div5 {
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(to bottom left, blue, red)
+}
+#div6 {
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(blue, red)
+}
+#div7 {
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(blue, red)
+}
+#div8 {
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(blue, red)
+}#div9 {
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(blue, red)
+}#div10 {
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(blue, red)
+}

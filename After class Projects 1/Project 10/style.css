@@ -1,0 +1,16 @@
+ul>li{
+    color:red;
+}
+h1:hover{
+    box-shadow: 3px 4px 5px;
+    font-size:40px;
+
+}
+li:nth-child(1){
+    color:blue;
+}
+h1::first-letter{
+    font-size:40px;
+    color:brown;
+
+}

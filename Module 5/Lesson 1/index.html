@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <input type="number" id="input1"placeholder="Enter a Number">
+</br>
+</br>
+    <button onclick="check()"class="button">Check if its Armstrong Number</button>
+
+    <script>
+        function check(){
+            var num=document.getElementById("input1").value;
+            var length=num.length;
+            var temp=parseInt(num);
+            var sum=0;
+            while(temp>0){
+                var cube1= temp % 10;
+                sum=sum+(cube1**length);
+                temp=Math.floor(temp/10)
+            }
+            if(sum==num){
+                alert("Its an Armstrong Number");
+            }else{
+                alert("Its not an Armstrong Number");
+            }
+            
+
+        
+        
+        
+        
+        
+        
+        
+    
+        }
+    </script>
+</body>
+</html>

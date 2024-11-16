@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="multiply(20,4,'Multiply1')">
+        Multiply 20 and 4
+    </button>
+    <p id="Multiply1">
+    </p>
+
+    <button onclick="multiply(5,23,'Multiply2')">
+        Multiply 5 and 23
+    </button>
+    <p id="Multiply2">
+    </p>
+
+    <script>
+        function multiply(num1, num2,id) {
+            var result = num1 * num2;
+            document.getElementById(id).innerHTML = result;
+            
+        }
+        /*function multiplyy(num1, num2) {
+            var result = num1 * num2;
+            document.getElementById("Multiply2").innerHTML = result;
+        }*/
+    </script>
+</body>
+
+</html>

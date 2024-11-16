@@ -1,0 +1,50 @@
+#TextStyling1{
+    text-decoration:underline;
+    text-transform:capitalize;
+    font-size:40px;
+    color:aqua;
+}
+#TextStyling2{
+    text-decoration:overline;
+    text-transform:uppercase;
+}
+#TextStyling3{
+    text-decoration:line-through;
+    text-transform:lowercase;
+}
+#TextStyling4{
+    text-decoration:overline underline;
+    
+}
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#Text{
+    text-shadow:2px 1px 4px black;
+}
+#Box{
+    box-shadow: 2px 7px 20px black;
+
+}
+#Indent{
+    text-indent:45%;
+}
+#mydiv1{
+    color:white;
+    background-color:black;
+    width:400px;
+    height:300px;
+
+    transform:rotateX(12deg);
+}
+#mydiv2 {
+    color: white;
+    background-color: black;
+    width: 400px;
+    height: 300px;
+
+   /* transform:rotate(89deg);*/
+    transform:scaleY(3)
+}

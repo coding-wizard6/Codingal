@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para"></p>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+
+    <button id="btn" type="button" onclick="maxvalue(4,5,7)"></button>
+    <script>
+        var student = {
+            name: "John",
+            age: 20,
+            marks: 90
+        }
+        document.getElementById("para").innerHTML = "My name is " + student.name + ", I am " + student.age + " years old" + ", I scored  " + student.marks + " marks in my previous test";
+
+        document.getElementById("para1").innerHTML = student["name"] + ", " + student["age"] + ", " + student["marks"];
+
+        document.getElementById("para2").innerHTML = Math.round(Math.random() * 10);
+
+        document.write("<br>");
+        document.write(Math.floor(4.2));
+        document.write("<br>");
+        document.write(Math.floor(4.8));
+        document.write("<br>");
+        document.write(Math.ceil(4.2));
+        document.write("<br>");
+        document.write(Math.ceil(4.8));
+        document.write("<br>");
+        document.write(Math.round(4.2));
+        document.write("<br>");
+        document.write(Math.round(4.8));
+
+        function maxvalue(a, b, c) {
+            result = a;
+            if (b > result) {
+                result = b;
+            }
+            if (c > result) {
+                result = c;
+            }
+
+            document.getElementById("para3").innerHTML = result;
+        }
+
+    </script>
+</body>
+
+</html>

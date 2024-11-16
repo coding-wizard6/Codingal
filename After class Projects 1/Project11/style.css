@@ -1,0 +1,22 @@
+.paragraph{
+    height:200px;
+    border:50px solid black;
+    background-color:rgb(255, 0, 0, 0.501);
+    padding-top:100px;
+    padding-left:140px;
+    margin-left:50px;
+}
+input[type="password"]{
+    background-color: chartreuse;
+    border:10px solid blue;
+}
+input[type="text"]{
+    background-color: rebeccapurple;
+    border:10px solid red;
+}
+#img1{
+    float:right;
+}
+h1{
+    float:right;
+}
