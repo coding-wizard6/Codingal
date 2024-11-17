@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para"></p>
+    <script>
+        class Vehicle {
+            constructor(name, color) {
+                this.name = name;
+                this.color = color;
+            }
+        }
+
+        const car1 = new Vehicle("Toyota", "Red");
+
+        document.getElementById("para").innerHTML = "This is a "+car1.color+car1.name
+    </script>
+</body>
+
+</html>

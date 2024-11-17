@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="btn1"onclick="asc()"class="button">ASC</button>
+    <button id="btn2"onclick="dsc()" class="button">DSC</button>
+    <p id="para"></p>
     
+    <script>
+        var nums=[20,40,30,50,40,70,80,60];
+        function asc(){
+            nums.sort(function(a,b){return a-b});
+            document.getElementById("para").innerHTML=nums;
+        }
+        function dsc(){
+            nums.sort(function(a,b){return(b-a)})
+            document.getElementById("para").innerHTML=nums;
+        }
+    </script>
+
 </body>
 </html>
