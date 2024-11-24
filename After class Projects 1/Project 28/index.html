@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter your age<input type="number"id="id1"min="18">
+    <button onclick="Func1()">Submit</button>
+    <p id="para"></p>
+    <script>
+        function Func1(){
+            var inpObj=document.getElementById("id1");
+            if(!inpObj.checkValidity()){
+                document.getElementById("para").innerHTML="You cant vote"
+            }else{
+                document.getElementById("para").innerHTML="You can vote"
+            }
+        }
+    </script>
+</body>
+</html>
