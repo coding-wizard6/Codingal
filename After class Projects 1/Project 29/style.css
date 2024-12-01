@@ -1,0 +1,12 @@
+.navbar {
+    background-color: rgb(237, 147, 44);
+}
+
+body {
+    background-image: url("BGI1.jpg");
+}
+
+#content {
+    font-size: 19px;
+    font-family: "Yuji Mai", serif;
+}
