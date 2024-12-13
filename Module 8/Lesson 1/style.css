@@ -91,6 +91,14 @@ body{
     top: 490px;
     left: 1360px;
     width:350px;
-    
-
+}
+#id2{
+    position: absolute;
+        top: 920px;
+        left: 60px;
+}
+#footer1{
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    font-size: 22px;
 }
