@@ -1,0 +1,104 @@
+.navbar{
+    background-color: rgb(237, 147, 44);
+}
+body{
+    background-image:url("BGI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content{
+    font-size: 100px;
+    font-family: "Yuji Mai", serif;
+    color:antiquewhite;
+}
+#IMG4{
+    border-radius: 43%;
+    margin: 65px;
+}
+#para1{
+    font-family: "Yuji Mai", serif;
+    color:antiquewhite;
+    position: absolute;
+        top: 400px;
+        left: 62px;
+}
+#para2 {
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 302px;
+}
+#para3 {
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 514px;
+}
+#para4 {
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 765px;
+}
+#para5 {
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+}
+#para6 {
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 1240px;
+}
+
+#PP{
+    position: absolute;
+    top:490px;
+    left:40px;
+    width:350px;
+}
+
+#MG {
+    position: absolute;
+    top: 490px;
+    left: 370px;
+    width:350px
+}
+
+#FH {
+    position: absolute;
+    top: 490px;
+    left: 700px;
+    width:350px
+}
+
+#VP {
+    position: absolute;
+    top: 490px;
+    left: 1030px;
+    width:350px
+    
+}
+#TP {
+    position: absolute;
+    top: 490px;
+    left: 1360px;
+    width:350px;
+}
+#id2{
+    position: absolute;
+        top: 920px;
+        left: 60px;
+}
+#footer1{
+    font-family: "Yuji Mai", serif;
+    color: antiquewhite;
+    font-size: 22px;
+}
