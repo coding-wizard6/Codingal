@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="LoginBox">
+        </br>
+        <center>
+            <h2>Login</h2>
+        </center>
+        <center>
+            <p>Enter Username</p>
+        </center>
+        <center><input type="text" id="nameBox"></center>
+        </br>
+        <center><button onclick="login()">Login</button></center>
+
+        </br>
+        </br>
+    </div>
+
+        <div class="container" id="LogoutBox" style="display:none" >
+            </br>
+            <center>
+                <h2>Welcome <span id="nameDisplay"></span>....</h2>
+                <p>You are logged in</p>
+            </center>
+
+            </br>
+            <center><button onclick="logout()">Logout</button></center>
+        </div>
+        <script>
+            function login() {
+                const name = document.getElementById("nameBox").value;
+                if (name) {
+                    document.getElementById("LoginBox").style.display = 'none';
+                    document.getElementById("LogoutBox").style.display = 'block';
+                    
+                    document.getElementById("nameDisplay").textContent = name;
+                }
+                else {
+                    alert("Please enter your username");
+                }
+            }
+            function logout() {
+                document.getElementById("LoginBox").style.display = 'block';
+                document.getElementById("LogoutBox").style.display = 'none';
+
+                document.getElementById("nameDisplay").textContent = "";
+            }
+
+        </script>
+</body>
+
+</html>
